@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society simulator - name pending</title>
+</head>
+
+<body>
+    <div>
+        <label for="initialPopulation">Initial population</label>
+        <input type="number" name="initialPopulation" id="initialPopulation">
+        <button type="submit" onclick="updateInitialPop()">Submit</button>
+    </div>
+    <div>
+        <label for="Month">Months elapsed</label>
+        <input type="number" name="Month" id="months-elapsed" disabled>
+        <label for="Year">Years elapsed</label>
+        <input type="number" name="Year" id="years-elapsed" disabled>
+    </div>
+    <div>
+        <label for="Population">Total population</label>
+        <input type="number" name="Population" id="current-population" disabled>
+        <label for="Births">Births</label>
+        <input type="number" name="Births" id="current-births" disabled>
+        <label for="Deaths">Deaths</label>
+        <input type="number" name="Deaths" id="current-deaths" disabled>
+    </div>
+
+    <button type="button" style="font-size:x-large" onclick="toggleSimulation()">&#x23EF</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
